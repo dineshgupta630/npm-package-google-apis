@@ -1,4 +1,4 @@
-import { ModuleWithProviders, Provider } from "@angular/core";
+import { ModuleWithProviders } from "@angular/core";
 export declare class GoogleApiModule {
-    static forRoot(gapiConfigProvider: Provider): ModuleWithProviders;
+    static forRoot(): ModuleWithProviders;
 }
