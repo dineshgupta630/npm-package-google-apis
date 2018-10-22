@@ -2,6 +2,8 @@ import { Observable } from 'rxjs/Observable';
 import { Injectable, InjectionToken, NgModule } from '@angular/core';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/mergeMap';
+import { mergeMap } from 'rxjs/operators';
+
 
 /**
  * @fileoverview added by tsickle
@@ -112,7 +114,7 @@ var GoogleAuthService = /** @class */ (function () {
     function () {
         var _this = this;
         if (!this.GoogleAuth) {
-            return this.googleApi.onLoad().mergeMap(function () { return _this.loadGapiAuth(); });
+            return this.googleApi.onLoad().pipe(mergeMap(() => this.loadGapiAuth()));
         }
         return Observable.of(this.GoogleAuth);
     };
