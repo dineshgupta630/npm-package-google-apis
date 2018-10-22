@@ -1,48 +1,41 @@
 
 {
-  "name": "ng-gapi-v2",
-  "version": "0.0.0",
-  "private": false,
+  "_args": [
+    [
+      "github:dineshgupta630/npm-package-google-apis",
+      "/Users/dineshgupta/Desktop/Development/onder-manage"
+    ]
+  ],
+  "_from": "github:dineshgupta630/npm-package-google-apis",
+  "_id": "ng-gapi-v2@github:dineshgupta630/npm-package-google-apis#fa9890f14edf2417c8d4ff92f8be9ff67d50c89f",
+  "_inBundle": false,
+  "_location": "/ng-gapi-v2",
+  "_phantomChildren": {
+    "tslib": "1.9.3"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "github:dineshgupta630/npm-package-google-apis",
+    "rawSpec": "github:dineshgupta630/npm-package-google-apis",
+    "saveSpec": "github:dineshgupta630/npm-package-google-apis",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:dineshgupta630/npm-package-google-apis#fa9890f14edf2417c8d4ff92f8be9ff67d50c89f",
+  "_shrinkwrap": null,
+  "_spec": "github:dineshgupta630/npm-package-google-apis",
+  "_where": "/Users/dineshgupta/Desktop/Development/onder-manage",
+  "bundleDependencies": [],
   "dependencies": {
-    "@angular/animations": "^6.0.3",
-    "@angular/common": "^6.0.3",
-    "@angular/compiler": "^6.0.3",
-    "@angular/core": "^6.0.3",
-    "@angular/forms": "^6.0.3",
-    "@angular/http": "^6.0.3",
-    "@angular/platform-browser": "^6.0.3",
-    "@angular/platform-browser-dynamic": "^6.0.3",
-    "@angular/router": "^6.0.3",
-    "core-js": "^2.5.4",
-    "rxjs": "^6.0.0",
-    "zone.js": "^0.8.26",
     "@types/gapi": "^0.0.35",
     "@types/gapi.auth2": "^0.0.44",
-    "rxjs-compat": "^6.1.0",
-    "tslib": "^1.9.0"
+    "rxjs-compat": "^6.1.0"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.6.8",
-    "@angular/cli": "~6.0.8",
-    "@angular/compiler-cli": "^6.0.3",
-    "@angular/language-service": "^6.0.3",
-    "@types/jasmine": "~2.8.6",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "~8.9.4",
-    "codelyzer": "~4.2.1",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~1.7.1",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.0",
-    "karma-jasmine": "~1.1.1",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "ng-packagr": "^3.0.3",
-    "protractor": "~5.3.0",
-    "ts-node": "~5.0.1",
-    "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
-  },
+  "deprecated": false,
+  "description": "Angular 4+ Google api module ng-gapi",
   "main": "bundles/ng-gapi-v2.umd.js",
   "module": "fesm5/ng-gapi-v2.js",
   "es2015": "fesm2015/ng-gapi-v2.js",
@@ -53,4 +46,8 @@
   "typings": "ng-gapi-v2.d.ts",
   "metadata": "ng-gapi-v2.metadata.json",
   "sideEffects": false
+}
+  "name": "ng-gapi-v2",
+  "optionalDependencies": {},
+  "version": "github:dineshgupta630/npm-package-google-apis#fa9890f14edf2417c8d4ff92f8be9ff67d50c89f"
 }
